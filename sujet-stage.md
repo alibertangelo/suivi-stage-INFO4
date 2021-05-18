@@ -42,4 +42,8 @@ NEXEYA développe une version 3 du logiciel KALLISTE, intégrant les nouveaux be
 - Maitrise des outils Visual Studio / Qt Creator 
 - Maitrise des outils de gestion de configuration Git et GitLab 
 - Maitrise dulangage markdown 
-- Maitrise de l’environnement de développement Kalliste(Object Development Kit) => Développement d’un ou plusieurs objets métier
+- Maitrise de l’environnement de développement Kalliste(Object Development Kit) => Développement d’un ou plusieurs objets métier.  
+
+Aperçu du logiciel Kallisté :
+
+![Aperçu du logiciel KALLISTE](https://github.com/alibertangelo/suivi-stage-INFO4/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202021-05-18%20160519.png)
