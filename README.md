@@ -3,6 +3,7 @@
 ## Semaine 2 - 17 Mai 2021
 
 Réalisation de tests unitaires.  
+Suivi du parcours HSE : Présentations des règles pour la sécurité, l'hygiène et l'environnement qui s'appliquent au sein du groupe Nexeya.
 
 ## Semaine 1 - 10 Mai 2021
 
