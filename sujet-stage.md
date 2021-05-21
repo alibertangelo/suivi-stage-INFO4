@@ -2,13 +2,8 @@
 
 Développement d'une version 3 du logiciel KALLISTE : logiciel éditeur de synoptiques dédié à la présentation, en temps réels, des données d’acquisition des bancs de tests dans les domaines de la défense et de l’aéronautique.  
 
-## Fonctions et tâches
 
-L’objectif du stage est double :  
-- Participer à l’élaboration et au développement de procédure de tests automatisés permettant l’intégration continue du développement du logiciel ainsi que l’automatisation des procédures de validation et de recette du logiciel.
-- Participer au développement de briques « métier » afin d’enrichir la bibliothèque proposée par le logiciel.  
-
-## Détails du projet
+## Détails du projet  
 
 ### Domaine d'application :  
 Informatique, Défense, Aéronautique, Banc de tests, Développement logiciel  
@@ -27,8 +22,8 @@ NEXEYA développe des bancs de tests dans les domaines de la défense et de l’
 
 NEXEYA développe une version 3 du logiciel KALLISTE, intégrant les nouveaux besoins marché identifiés. 
 
-### L’objectif dustage est double : 
-- Participer à l’élaboration et au développement de procédures de tests automatisés permettant l’intégration continue du développement du logiciel ainsi que l’automatisation des procédures de validation et de recette dulogiciel.
+### L’objectif du stage est double :  
+- Participer à l’élaboration et au développement de procédures de tests automatisés permettant l’intégration continue du développement du logiciel ainsi que l’automatisation des procédures de validation et de recette du logiciel.
 - Participer au développement de briques « métier » afin d’enrichir la bibliothèque proposée par le logiciel.  
 
 ### Technologies utilisées :  
@@ -44,6 +39,6 @@ NEXEYA développe une version 3 du logiciel KALLISTE, intégrant les nouveaux be
 - Maitrise dulangage markdown 
 - Maitrise de l’environnement de développement Kalliste(Object Development Kit) => Développement d’un ou plusieurs objets métier.  
 
-Aperçu du logiciel Kallisté :
+Aperçu du logiciel Kallisté :  
 
 ![Aperçu du logiciel KALLISTE](https://github.com/alibertangelo/suivi-stage-INFO4/blob/main/images/Capture%20d%E2%80%99%C3%A9cran%202021-05-18%20160519.png)
