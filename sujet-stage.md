@@ -12,7 +12,7 @@ Développement logiciel, tests, intégration continue, documentation
 ### Mots-clefs :
 Modèles deconception, c++, intégration continue, programmation orientée objet, Qt, IHM  
 
----
+### Contexte :  
 
 NEXEYA développe des bancs de tests dans les domaines de la défense et de l’aéronautique. L’agence de Montescot estspécialisée dans le développement : 
 - De bancs de test d’équipement
