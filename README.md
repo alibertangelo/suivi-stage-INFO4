@@ -1,5 +1,9 @@
 # Suivi de stage INFO4 - Angelo ALIBERT
 
+## Semaine 4 - 31 Mai 2021
+
+- Réalisation de tests unitaires sur les fonctions de manipulation de vecteurs, matrices et listes de vecteurs (Append, AppendRow, AppendColumn, InsertRow, InsertColumn...).    
+
 ## Semaine 3 - 25 Mai 2021
 
 - Réalisation de nouveaux tests unitaires sur les fonctions de conversion entre scalaires, vecteurs, matrices et listes de vecteurs.  
