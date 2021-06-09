@@ -1,5 +1,10 @@
 # Suivi de stage INFO4 - Angelo ALIBERT
 
+## Semaine 5 - 7 Juin 2021
+
+- Réalisation de tests unitaires sur les fonctions de manipulation de vecteurs, matrices et listes de vecteurs (SetColumun, SetRow, Remove).  
+
+
 ## Semaine 4 - 31 Mai 2021
 
 - Réalisation de tests unitaires sur les fonctions de manipulation de vecteurs, matrices et listes de vecteurs (Append, AppendRow, AppendColumn, InsertRow, InsertColumn...).    
@@ -13,6 +18,7 @@
 
 - Réalisation de nouveaux tests unitaires sur les fonctions de conversion entre scalaires.  
 - Suivi du parcours HSE : Présentations des règles pour la sécurité, l'hygiène et l'environnement qui s'appliquent au sein du groupe Nexeya.
+- Découverte de l'outil QTest fourni par Qt pour l'édition des tests unitaires.  
 
 ## Semaine 1 - 10 Mai 2021
 
