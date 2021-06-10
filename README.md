@@ -3,7 +3,7 @@
 ## Semaine 5 - 7 Juin 2021
 
 - Réalisation de tests unitaires sur les fonctions de manipulation de vecteurs, matrices et listes de vecteurs (SetColumun, SetRow, Remove).  
-
+- Ajout des conversions entre les types QSize, QPoint, CSDSSample et CSDSComplex.  
 
 ## Semaine 4 - 31 Mai 2021
 
