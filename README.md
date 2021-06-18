@@ -1,26 +1,45 @@
 # Suivi de stage INFO4 - Angelo ALIBERT
 
-## Semaine 5 - 7 Juin 2021
+## Semaine 5 - 14 Juin 2021
+
+La version 3 du logiciel Kallisté a été codée en rapartant "de zéro". Tous les objets/widgets à disposition de l'utilisateur (led, cadrans, afficheurs, boutons, graphes...) doivent donc être réimplémentés, avec un achitecture et organisation différente du code et des fichiers, tout en gardant les mêmes propriétés. Voici un aperçu de la structure nécessaire pour définir un objet : 
+
+![capture_led_cpp](https://github.com/alibertangelo/suivi-stage-INFO4/blob/main/images/Led_cpp.png)
+
+Dans cette nouvelle version, les propriétés de chaque objet sont décrites dans un fichier Json à l'aide de UUID, reliés par la suite aux setters/getters dans le code c++.
+
+![capture json led](https://github.com/alibertangelo/suivi-stage-INFO4/blob/main/images/Led_sdsod_json.png)
+
+Voici un aperçu du rendu final dans le logiciel Kallisté (ici sur la version 2) où l'on peut voir une led avec ses propriétés sur la droite :
+
+![capture_kalliste_v2_led](https://github.com/alibertangelo/suivi-stage-INFO4/blob/main/images/KallisteV2_led.png)  
+
+Pour réaliser le portage des objets, mon travail consiste donc à :  
+- Générer le fichier JSON pour chaque objet décrivant toutes ses propriétés  
+- Ecrire les fichiers headers décrivant les méthodes et attributs de chaque objet/widget/sous-widgets
+- Implémenter les méthodes c++ (setters/getters/méthodes internes...) en me basant sur le code de la v2.  
+
+## Semaine 4 - 7 Juin 2021
 
 - Réalisation de tests unitaires sur les fonctions de manipulation de vecteurs, matrices et listes de vecteurs (SetColumun, SetRow, Remove).  
 - Ajout des conversions entre les types QSize, QPoint, CSDSSample et CSDSComplex.  
 
-## Semaine 4 - 31 Mai 2021
+## Semaine 3 - 31 Mai 2021
 
 - Réalisation de tests unitaires sur les fonctions de manipulation de vecteurs, matrices et listes de vecteurs (Append, AppendRow, AppendColumn, InsertRow, InsertColumn...).    
 
-## Semaine 3 - 25 Mai 2021
+## Semaine 2 - 25 Mai 2021
 
 - Réalisation de nouveaux tests unitaires sur les fonctions de conversion entre scalaires, vecteurs, matrices et listes de vecteurs.  
 
 
-## Semaine 2 - 17 Mai 2021
+## Semaine 1 - 17 Mai 2021
 
 - Réalisation de nouveaux tests unitaires sur les fonctions de conversion entre scalaires.  
 - Suivi du parcours HSE : Présentations des règles pour la sécurité, l'hygiène et l'environnement qui s'appliquent au sein du groupe Nexeya.
 - Découverte de l'outil QTest fourni par Qt pour l'édition des tests unitaires.  
 
-## Semaine 1 - 10 Mai 2021
+## Semaine 0 - 10 Mai 2021
 
 Voici un résumé de cette première semaine qui n'a duré seulement que 3 jours à cause du week-end ferié :  
 - J'ai suivi un tutoriel pour découvrir le logiciel Kallisté, produit sur le quel est centré mon stage. Il permet d'éditer des minis programmes pré-compilés et des synoptiques en faisant de simple glissés/déposés avec de nombreux plugings (compteurs, afficheurs, graphes, led, boutons...).
