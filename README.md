@@ -1,5 +1,19 @@
 # Suivi de stage INFO4 - Angelo ALIBERT
 
+## Semaine 10 - 19 Juillet 2021
+
+Mes missions restent les mêmes qu'il y a un mois : je continue à porter des objets vers la version 3. Cependant il s'agit de nouveaux objets plus complexes comme input box, combo box, check box, label... qui sont hérités de widgets prédéfinis par Qt. Certaines de leurs méthodes doivent être surchargées et certains aspects orientés évenement (action du clavier et de la souris) rentrent en compte dans le fonctionnement de ces nouveaux objets. Cela implique donc une bonne compréhension du code déjà existant et une bonne connaissance du comportement et des méthodes de ces widgets. (Etude de la documentation Qt...)   
+
+Voici un apperçu de l'éditeur kallisté version 3 et de quelques uns des objets que j'ai porté : 
+
+![capture_combobox_v3](https://github.com/alibertangelo/suivi-stage-INFO4/blob/main/images/combobox%20v3.png)
+
+S'ajoute à celà l'implémentation de nouvelles fonctionnalité : **les verbs**. 
+Dans kallisté l'utilisateur à sa disposition des fonctions appelées "verbs", prédéfinies pour chaque objet. Les verbs ont la capacité de modifier plusieurs propriétés à la fois ce qui permet à l'utilisateur de ne pas avoir à modifier chaque proprété une par une. Par exemple pour l'objet combo box (liste déroulante), l'utilisateur dispose des verbs suivants : add choice, remove at index/value, clear,  set focus...
+
+Une autre fonctionnalité proposée par ces objets sont **les jobs**. Il jouent le rôle de "listeneurs" sur certaines propriétés des objets et se déclanchent lorsqu'elles sont modifiées. Ainsi l'utilisateur peut les associers aux verbs de son choix qui seront invoqués dans des threads.  
+
+
 ## Semaine 5 - 14 Juin 2021
 
 La version 3 du logiciel Kallisté a été codée en rapartant "de zéro". Tous les objets/widgets à disposition de l'utilisateur (led, cadrans, afficheurs, boutons, graphes...) doivent donc être réimplémentés, avec un achitecture et organisation différente du code et des fichiers, tout en gardant les mêmes propriétés. Voici un aperçu de la structure nécessaire pour définir un objet : 
